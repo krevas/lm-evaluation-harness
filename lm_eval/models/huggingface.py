@@ -76,7 +76,7 @@ class HuggingFaceAutoLM(BaseLM):
         max_gen_toks: Optional[int] = 256,
         max_length: Optional[int] = None,
         add_special_tokens: Optional[bool] = None,
-        use_accelerate: Optional[bool] = False,
+        use_accelerate: Optional[bool] = True,
         device_map_option: Optional[str] = "auto",
         max_memory_per_gpu: Optional[Union[int, str]] = None,
         max_cpu_memory: Optional[Union[int, str]] = None,
